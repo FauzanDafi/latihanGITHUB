@@ -11,6 +11,7 @@ function kurang() {
   const num2 = parseFloat(document.getElementById("sum4").value);
   const hasil = num1 - num2;
   document.getElementById("result").textContent = hasil;
+  alert("telah mengurangkan");
 }
 
 function kali() {
@@ -18,6 +19,7 @@ function kali() {
   const num2 = parseFloat(document.getElementById("sum4").value);
   const hasil = num1 * num2;
   document.getElementById("result").textContent = hasil;
+  alert("telah mengalikan");
 }
 
 function bagi() {
@@ -30,4 +32,5 @@ function bagi() {
     document.getElementById("result").textContent =
       "tidak dapat dibagi dengan 0";
   }
+  alert("telah membagi");
 }
