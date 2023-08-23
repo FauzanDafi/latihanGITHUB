@@ -32,5 +32,4 @@ function bagi() {
     document.getElementById("result").textContent =
       "tidak dapat dibagi dengan 0";
   }
-  alert("telah membagi");
 }
