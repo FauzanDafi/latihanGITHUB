@@ -3,6 +3,7 @@ function tambah() {
   const num2 = parseFloat(document.getElementById("sum4").value);
   const hasil = num1 + num2;
   document.getElementById("result").textContent = hasil;
+  alert("telah menambahkan");
 }
 
 function kurang() {
